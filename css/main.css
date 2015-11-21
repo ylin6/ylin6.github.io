@@ -289,7 +289,7 @@ a, a:hover{
   and (-webkit-min-device-pixel-ratio: 2) {
 
   	.title{
-        font-size: 8px;
+        font-size: 80px;
     }
       
     .left-item{
@@ -313,17 +313,6 @@ a, a:hover{
       width: 400px;
     }
       
-    .splash{
-        background: url(../images/TEST2.jpg) no-repeat center center fixed; 
-        -webkit-background-size: 100%; 
-        -moz-background-size: 100%; 
-        -o-background-size: 100%; 
-        background-size: 100%; 
-        -webkit-background-size: cover; 
-        -moz-background-size: cover; 
-        -o-background-size: cover; 
-        background-size: cover;
-    }
             
 }
 
