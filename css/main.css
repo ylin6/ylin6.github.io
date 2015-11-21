@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Gobold';
+         url('../fonts/gobold-webfont.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .header{
     font-size: 34px;
     font-family: "Gobold";
@@ -24,7 +32,7 @@ body{
 }
 
 .splash{
-	background:url("../images/TEST2.png");
+	background:url("../images/TEST2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 550px;
