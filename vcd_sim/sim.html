@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+	<title>Carrier TB-PAC01 </title>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class = "thermostat-container">
+        <div class = "display overlay black" id="display">
+            <div class="state" id="state0">
+                <div class="uppersection" id="time-temp">
+                    <div class="date">
+                        <p class="day-date-time" id="day">
+                            THURSDAY </p>
+                        <p class="day-date-time" id="date">
+                            OCT. 05</p>
+                        <p class="day-date-time" id="time">
+                            7:30 AM </p>
+                    </div>
+                    <div class="temp" id="temp-display-big">
+                        73 
+                    </div>
+                </div>
+                <div class="uppersection" id="instructions">
+                    <div class="instruction-container">
+                        <p class="day-date-time">SET PROGRAMMING</p>
+                        <p class="day-date-time" id="instruction">SELECT CYCLE</p>
+                        <div class="programming-options">
+                            <span id="span1" class="grayscale">WEEKDAY</span>
+                            <span id="span2">&nbsp</span>   
+                            <span id="span3">&nbsp</span>
+                            <span id="span4">WEEKEND</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="program">
+                    <div class="period" id="morning">
+                        <div class="period-temp" id="morning-temp">
+                            <div class = "temp">
+                                75
+                            </div> 
+                        </div>
+                        <img class = "temp-logo" src="./images/snowflake.png">
+                        <div class = "period-time" id="period-time-morning">
+                            6:30 AM
+                        </div>
+                    </div>
+                    <div class="period" id="daytime">
+                        <div class="period-temp" id="day-temp">
+                            <div class = "temp">
+                                78
+                            </div> 
+                        </div>
+                        <img class = "temp-logo" src="./images/snowflake.png">
+                        <div class = "period-time" id = "period-time-day">
+                            11:30 AM
+                        </div>
+                    </div> 
+                    <div class="period" id="eve">
+                        <div class="period-temp" id="eve-temp">
+                            <div class = "temp">
+                                72
+                            </div> 
+                        </div>
+                        <img class = "temp-logo" src="./images/fire.png">
+                        <div class = "period-time" id ="period-time-eve">
+                            6:30 PM
+                        </div>
+                    </div>
+                    <div class="period" id="night">
+                        <div class="period-temp" id="night-temp">
+                            <div class = "temp">
+                                71
+                            </div> 
+                        </div>
+                        <img class = "temp-logo" src="./images/snowflake.png">
+                        <div class = "period-time" id="period-time-night">
+                            10:30 PM
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="state" id="state1">
+                <div class="uppersection">
+                    <div class="date"> 
+                        <p class="day-date-time"> SET TIME</p>
+                    </div>
+                </div>
+                <div class="set-time">
+                    <span  id="set-time-hour">7</span>
+                    <span  class = "colon" id="set-time-colon">:</span>
+                    <span  id="set-time-min"> 30</span>
+                    <span id="AMPM">AM</span>
+                </div>
+                <div class="set-dmdy">
+                    <div id="set-day"> THURSDAY </div>
+                    <span id="set-month"> OCT. </span>
+                    <span id="set-date"> 30 </span>
+                </div>
+            </div>
+        </div>
+        <div class = "buttons">
+            <div class = "switch">
+                <input type = "checkbox" id="lock-switch">
+                <label><i></i></label>
+            </div>
+            <button class="soft-keys" id="program-button">PROGRAM</button>
+            <button class="soft-keys" id="set-time-button">SET TIME</button>
+            <button class="soft-keys" id="HCOFF-button">H/C/OFF</button>
+            <div id="control">
+            </div>
+            <button class="ok-button"> OK </button>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="knobKnob/transform.js"></script>
+    <script src="knobKnob/knobKnob.jquery.js"></script>
+    <script src="./js/main.js"></script>
+</body>
