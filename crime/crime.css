@@ -1,0 +1,60 @@
+
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: "DIN";
+	src: url("./din-light.ttf");
+}
+
+path:hover, polygon:hover, polyline:hover{
+	fill: #3d73a5;
+}
+
+.map{
+	width: 40vw;
+	height: 100vh;
+
+}
+
+.svg{
+	float: left;
+}
+
+p{
+	font-family: DIN, sans-serif;
+}
+
+h1, h2{
+	padding-left: 10px;
+	font-family: DIN, sans-serif;
+}
+
+input{
+	color:#3d73a5;
+	font-family: DIN, sans-serif;
+}
+
+.model-row{
+	margin: 12px;
+}
+
+.crime-type{
+	font-weight: bolder;
+	color: #1F3F75;
+}
+
+.info{
+	padding: 20px;
+	float: left;
+}
+
+#d3{
+	width: 40vw;
+	margin: 40px 0px;
+}
+
+.legend{
+	font-family: DIN, sans-serif;
+}
